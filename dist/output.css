@@ -788,11 +788,6 @@ video {
   color: rgb(177 178 180 / var(--tw-text-opacity));
 }
 
-.text-primary-neutral-high{
-  --tw-text-opacity: 1;
-  color: rgb(50 57 71 / var(--tw-text-opacity));
-}
-
 body {
   font-family: 'Poppins', sans-serif;
 }
