@@ -18,7 +18,10 @@ module.exports = {
         'surface-high': '#D0D0D0',
         'surface-low': '#888888'
       },
+      screens: {  
+        'md': '950px',
     },
+  }
   },
   plugins: [],
 }
