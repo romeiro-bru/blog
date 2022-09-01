@@ -17,8 +17,15 @@ module.exports = {
         'neutral': '#F5F6F8',
         'surface-high': '#D0D0D0',
         'surface-low': '#888888'
-      },
-    },
+      },     
+    screens: {
+      'sm': '640px',
+      'md': '990px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    }
+  }
   },
   plugins: [],
 }
