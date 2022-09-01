@@ -600,6 +600,10 @@ video {
   display: flex;
 }
 
+.grid{
+  display: grid;
+}
+
 .w-4\/5{
   width: 80%;
 }
@@ -640,6 +644,14 @@ video {
 
 .w-11\/12{
   width: 91.666667%;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-wrap{
@@ -798,4 +810,10 @@ video {
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 640px){
+  .sm\:block{
+    display: block;
+  }
 }
