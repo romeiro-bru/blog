@@ -675,6 +675,14 @@ video {
   width: 66.666667%;
 }
 
+.w-60{
+  width: 15rem;
+}
+
+.w-96{
+  width: 24rem;
+}
+
 .grid-cols-3{
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
