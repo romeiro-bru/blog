@@ -621,6 +621,14 @@ video {
   margin-bottom: 2.25rem;
 }
 
+.ml-4{
+  margin-left: 1rem;
+}
+
+.ml-8{
+  margin-left: 2rem;
+}
+
 .flex{
   display: flex;
 }
@@ -657,6 +665,14 @@ video {
 
 .w-10\/12{
   width: 83.333333%;
+}
+
+.w-7\/12{
+  width: 58.333333%;
+}
+
+.w-8\/12{
+  width: 66.666667%;
 }
 
 .grid-cols-3{
@@ -879,9 +895,19 @@ body {
     width: 25%;
   }
 
+  .md\:w-9\/12{
+    width: 75%;
+  }
+
   .md\:divide-x > :not([hidden]) ~ :not([hidden]){
     --tw-divide-x-reverse: 0;
     border-right-width: calc(1px * var(--tw-divide-x-reverse));
     border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:w-full{
+    width: 100%;
   }
 }
