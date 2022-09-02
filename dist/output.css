@@ -553,6 +553,11 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .m-auto{
   margin: auto;
 }
@@ -618,16 +623,20 @@ video {
   width: fit-content;
 }
 
-.w-10\/12{
-  width: 83.333333%;
-}
-
 .w-11\/12{
   width: 91.666667%;
 }
 
 .w-full{
   width: 100%;
+}
+
+.w-6\/12{
+  width: 50%;
+}
+
+.w-10\/12{
+  width: 83.333333%;
 }
 
 .grid-cols-3{
@@ -651,6 +660,10 @@ video {
 .divide-primary > :not([hidden]) ~ :not([hidden]){
   --tw-divide-opacity: 1;
   border-color: rgb(26 27 31 / var(--tw-divide-opacity));
+}
+
+.rounded{
+  border-radius: 0.25rem;
 }
 
 .border-y-2{
@@ -685,6 +698,14 @@ video {
 
 .p-4{
   padding: 1rem;
+}
+
+.p-3\.5{
+  padding: 0.875rem;
+}
+
+.p-3{
+  padding: 0.75rem;
 }
 
 .py-9{
@@ -822,24 +843,20 @@ body {
     display: grid;
   }
 
-  .md\:w-7\/12{
-    width: 58.333333%;
+  .md\:w-6\/12{
+    width: 50%;
+  }
+
+  .md\:w-10\/12{
+    width: 83.333333%;
   }
 
   .md\:w-5\/12{
     width: 41.666667%;
   }
 
-  .md\:w-6\/12{
-    width: 50%;
-  }
-
   .md\:w-1\/4{
     width: 25%;
-  }
-
-  .md\:w-10\/12{
-    width: 83.333333%;
   }
 
   .md\:divide-x > :not([hidden]) ~ :not([hidden]){
