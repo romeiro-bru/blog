@@ -585,6 +585,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .mt-7{
   margin-top: 1.75rem;
 }
@@ -605,16 +609,8 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.ml-8{
-  margin-left: 2rem;
-}
-
-.mt-2\.5{
-  margin-top: 0.625rem;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
+.mt-8{
+  margin-top: 2rem;
 }
 
 .flex{
@@ -645,14 +641,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-5\/12{
-  width: 41.666667%;
-}
-
-.w-8\/12{
-  width: 66.666667%;
 }
 
 .grid-cols-3{
@@ -828,6 +816,10 @@ body {
     margin-bottom: 2rem;
   }
 
+  .sm\:mt-8{
+    margin-top: 2rem;
+  }
+
   .sm\:p-14{
     padding: 3.5rem;
   }
@@ -839,24 +831,20 @@ body {
 }
 
 @media (min-width: 990px){
+  .md\:mr-4{
+    margin-right: 1rem;
+  }
+
   .md\:mb-0{
     margin-bottom: 0px;
-  }
-
-  .md\:mr-14{
-    margin-right: 3.5rem;
-  }
-
-  .md\:mr-12{
-    margin-right: 3rem;
   }
 
   .md\:mr-10{
     margin-right: 2.5rem;
   }
 
-  .md\:mr-4{
-    margin-right: 1rem;
+  .md\:ml-8{
+    margin-left: 2rem;
   }
 
   .md\:flex{
@@ -895,5 +883,15 @@ body {
     --tw-divide-x-reverse: 0;
     border-right-width: calc(1px * var(--tw-divide-x-reverse));
     border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
+  }
+
+  .md\:pr-6{
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:mt-8{
+    margin-top: 2rem;
   }
 }
